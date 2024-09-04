@@ -110,17 +110,19 @@ src/
 --- 
 
 # Setup
-***1. Clone the repository*** 
+***1. Clone the repository:*** 
 ```bash
 git clone https://github.com/ZahraneRabhi/DOTNET-CORE-CLEAN-ARCHITECTURE.git
 cd todo-api
 ```
 
-***2. Install dependencies(NuGet Package Manager)*** 
+***2. Install dependencies(NuGet Package Manager):*** 
+```bash
 dotnet ef migrations add InitialCreate
 dotnet ef database update
+```
 
-***3. Update the connection string*** 
+***3. Update the connection string:*** 
 
 - Update the connection string in ```App.Web/appsettings.json``` to point to your database.
 -  Update the appsettings.json file pqth in ```App.Data/ConfigurationHelper.cs```,
@@ -130,7 +132,7 @@ dotnet ef database update
 dotnet ef migrations add InitialCreate --project App.Data
 dotnet database update --project App.Data
 ```
-***4. Run the application:*** 
+***5. Run the application:*** 
 ```bash
 dotnet build --project src/App.Web/App.Web.csproj
 dotnet run --project src/App.Web/App.Web.csproj
