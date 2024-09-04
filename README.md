@@ -118,8 +118,7 @@ cd DOTNET-CORE-CLEAN-ARCHITECTURE
 
 ***2. Install dependencies(NuGet Package Manager):*** 
 ```bash
-dotnet ef migrations add InitialCreate
-dotnet ef database update
+dotnet restore
 ```
 
 ***3. Update the connection string:*** 
