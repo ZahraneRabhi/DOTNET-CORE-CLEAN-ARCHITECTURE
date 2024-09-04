@@ -113,7 +113,7 @@ src/
 ***1. Clone the repository:*** 
 ```bash
 git clone https://github.com/ZahraneRabhi/DOTNET-CORE-CLEAN-ARCHITECTURE.git
-cd todo-api
+cd DOTNET-CORE-CLEAN-ARCHITECTURE
 ```
 
 ***2. Install dependencies(NuGet Package Manager):*** 
