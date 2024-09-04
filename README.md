@@ -130,7 +130,7 @@ dotnet ef database update
 dotnet ef migrations add InitialCreate --project App.Data
 dotnet database update --project App.Data
 ```
-***4. Run the application: *** 
+***4. Run the application:*** 
 ```bash
 dotnet build --project src/App.Web/App.Web.csproj
 dotnet run --project src/App.Web/App.Web.csproj
